@@ -1,0 +1,117 @@
+body{
+    background-color:#E1FFBB;
+}
+.gradient-background {
+    background: linear-gradient(300deg,#E1FFBB, #beff68);
+    background-size: 180% 180%;
+    animation: gradient-animation 3s linear infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+@keyframes color-change{
+    0%   {color:#001A6E;}
+    50%  {color:#074799;}
+    100% {color:#009990;}
+}
+
+.full{
+    height:100vh;
+    text-align: center;
+}
+.profile-img{
+    border-radius: 50%;
+}
+.pro{
+    color:#001A6E;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size:40px;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+.edu{
+    text-align: center;
+}
+
+.text-1{
+    font-family:monospace;
+    color:#074799;
+    text-align: center;
+}
+.text-2{
+    color:#074799;
+    font-family:monospace;
+    font-size: 30px;
+}
+.unclick{
+    pointer-events: none;
+    background-color: #068078;
+}
+.unclick *{
+    color:#E1FFBB;
+}
+.chuma{
+    margin-left:30px;
+    text-align: right;
+}
+.skills{
+    text-align: center;
+}
+.skills>div{
+    display:grid;
+    grid-template-rows:50% 50%;
+    grid-template-columns: 1;
+}
+.skills>div>img{
+    grid-row:1/2;
+}
+.skills>div>p{
+    grid-row:2/3;
+}
+#prog{
+    font-size:100px;
+}
+#sp{
+    font-size:120px;
+}
+.list-group *{
+    font-family: monospace;
+}
+.bld{
+    font-weight:bold;
+}
+.card-header{
+    background-color: #068078;
+}
+.card-body{
+    background-color: #E1FFBB;
+}
+#yel{
+    color:#E1FFBB;
+    font-family: "Montserrat";
+}
+.card-body>*{
+    color:#001A6E;
+    font-family: monospace;
+}
+.card-body>h5{
+    font-weight:600;
+}
+.modern{
+    font-family: "Montserrat";
+}
+#left>*{
+    text-align: left;
+}
